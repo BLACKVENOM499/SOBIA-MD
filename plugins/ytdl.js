@@ -66,8 +66,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363369260614615@newsletter",
-          newsletterName: "SOBIA MD",
+          newsletterJid: "",
+          newsletterName: "",
           serverMessageId: 143
         }
       }
@@ -92,7 +92,7 @@ cmd({
           case "1":
             await conn.sendMessage(senderID, {
               video: { url: downloadLink },
-              caption: "*SOBIA MD*"
+              caption: "*AKINDU MD*"
             }, { quoted: receivedMsg });
             break;
 
@@ -101,7 +101,7 @@ cmd({
               document: { url: downloadLink },
               mimetype: "video/mp4",
               fileName: `${ytData.title}.mp4`,
-              caption: "*SOBIA MD*"
+              caption: "*AKINDU MD*"
             }, { quoted: receivedMsg });
             break;
 
